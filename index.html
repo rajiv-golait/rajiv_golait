@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajiv Golait's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <ul>
+                    <a href="#home_section"><li>Home</li></a>
+                    <a href="#about"><li>About</li></a>
+                    <a href="#resume_section"><li>Resume</li></a>
+                    <a href="#projects_section"><li>Projects</li></a>
+                    <a href="#achievements_section"><li>Certifications</li></a>
+                    <a href="#contact_section"><li>Contact</li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home_section" class="home_section">
+        <div class="image">
+            <img src="rajiv1.jpg" alt="Not found" id="my_image">
+        </div>
+        <div class="info_text">
+            <h4 id="greet">Hi</h4>
+            <h4 id="name">I am</h4>
+            <h1 id="name">Rajiv Golait</h1>
+        </div>
+
+        <div class="social-icon"></div>
+        <a href="https://www.linkedin.com/in/rajiv-golait-7b986b281/" target="_blank" style="font-size: 40px;position: absolute;bottom: 170px;
+        left: 325px;"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/rajiv-golait" target="_blank" style="font-size: 40px;position: absolute;bottom: 170px;left:380px;"><i class="fa-brands fa-github"></i></a>
+        <a href="https://twitter.com/rajiv_golait" target="_blank" style="font-size: 40px;position: absolute;bottom: 170px;left: 440px;"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.instagram.com/rajiv_golait?igsh=MTNhZjNhNjR5NHAycw==" target="_blank" style="font-size: 40px;position: absolute;bottom: 170px;left:500px;"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.instagram.com/shot_by_f.a.l.c.o.n?igsh=MWF4bm0zMTl2NWpuaA==" target="_blank" style="font-size: 40px;position: absolute;bottom: 170px;left:560px;"><i class="fa-brands fa-square-instagram"></i></a>
+    </section>
+
+    <section id="about" class="about">
+        <img src="BG1.jpg" style="height: 100%;width: 100%;" alt="">
+
+        <div class="abt_img">
+            <img src="Rajiv2.jpg" alt="Not found">
+        </div>
+        <div class="abt_me">
+            <h1 id="head">About Me</h1>
+            <h2 id="engi">An Engineering Student</h2>
+            <p id="info_text">Hey, I'm Rajiv Golait, a first-year student studying Electronics and Telecommunication Engineering, and I'm absolutely pumped about diving into the world of engineering! I'm all about getting hands-on with projects and soaking up as much knowledge as I can along the way. Whether it's coursework or extracurricular activities, I'm committed to giving it my all. With my leadership skills, proactive mindset, and hunger for knowledge, I'm aiming to make a real difference in my field and beyond. I can't wait to see where this journey takes me and to tackle all the exciting opportunities that come my way!</p>
+        </div>
+
+        <div class="button-container">
+            <button class="button" onclick="redirectToSection()">LET'S CONNECT</button>
+            <button class="button" onclick="window.open('https://drive.google.com/drive/folders/1XJRQ0JzGF1mfe7UkpXEceLhKXeo31qao?usp=sharing', '_blank')">CV</button>
+        </div>
+        <script>
+            function redirectToSection() {
+              // Smooth scrolling to Section 2
+              document.getElementById('contact_section').scrollIntoView({ 
+                behavior: 'smooth' 
+              });
+            }
+            </script>
+    </section>
+
+    <section id="achievements_section" class="achivements">
+        <h1 class="head">Certifications</h1>
+
+        <div class="left">
+
+            <ul>
+    
+            <div class="coursera">
+         <abbr title="VIEW CERTIFICATE"  class="abbrivate"> <a href="https://drive.google.com/file/d/1JCHdUM61pna3UDGHfM9PwgWslDW7Z1Wd/view?usp=sharing" target="_blank"><h1>Foundations of Cybersecurity</h1> </a> </abbr>
+                <p>Completed Google-authorized Coursera course covering fundamental concepts in cybersecurity, including encryption, network security, and threat detection. Acquired skills to identify and mitigate cybersecurity risks, enhancing data protection and digital resilience.
+                </p>
+            </div>
+    
+            <div class="GSC">
+                <abbr title="VIEW CERTIFICATE"  class="abbrivate">   <a href="https://drive.google.com/file/d/18iAu4vuwUCe6Byx96kjVigUHX7nEwfnp/view?usp=drive_link" target="_blank"><h1>Google Solution Challenge</h1></a></abbr>
+                <p>Awarded for successfully submitting a project to the 2024 Solution Challenge, showcasing innovative solutions addressing real-world problems using technology. Demonstrated creativity, problem-solving, and technical skills in developing impactful projects for social or environmental betterment.</p>
+            </div>
+
+            <div class="GCSJ">
+                <abbr title="VIEW CERTIFICATE"  class="abbrivate">   <a href="https://drive.google.com/file/d/16-YIGQsfZOYZZE_decAEoaZPBv16grYa/view?usp=drive_link" target="_blank"><h1>Google Cloud Study Jams</h1></a></abbr>
+                <p>Actively participated and successfully completed all pathways, gaining expertise in Google Cloud Platform services, such as computing, storage, and machine learning. Acquired practical skills in deploying and managing cloud-based solutions, enhancing proficiency in cloud computing technologies.</p>
+            </div>
+    
+            </ul>
+    
+        </div>
+    
+        <div class="right">
+    
+            <ul>
+    
+                <div class="python">
+             <abbr title="VIEW CERTIFICATE"  class="abbrivate" > <a href="https://drive.google.com/file/d/1bG1wlvbuNXieBKtkQVHOeQtkcJe3SRAG/view?usp=drive_link" target="_blank"><h1>Introduction to Cybersecurity</h1> </a> </abbr>
+                    <p>Completed Cisco Networking Academy® Cybersecurity course. Understands global cyber threats, network vulnerabilities, and Cisco's threat detection. Aware of cybersecurity profession's growth and certification opportunities.</p>
+                </div>
+        
+                <div class="cyber">
+                    <abbr title="VIEW CERTIFICATE" class="abbrivate"><a href="https://drive.google.com/file/d/1g9P8DrzIaInWLLdxrRhb3EOM1-ZMwjBZ/view?usp=drive_link" target="_blank"><h1>PCAP: Programming Essentials in Python</h1></a> </abbr>
+                    <p>Completed Cisco Networking Academy® PCAP course. Proficient in Python essentials: syntax, data types, control structures, basic algorithms. Equipped to develop efficient Python programs for diverse applications.</p>
+                </div>
+        
+                <div class="btm">
+                    <abbr title="VIEW CERTIFICATE" class="abbrivate"><a href="https://drive.google.com/file/d/1_sDumJFypAsaj5POsxXI_STyEfZRwIQf/view?usp=sharing" target="_blank"><h1>Certificate of 1st Rank in Badminton Competition</h1></a> </abbr>
+                    <p> We, Team of First Year Won the Badmintion Competition held at Nakshatra Sports Event.</p>
+                </div>
+
+            </ul>
+        </div>
+
+
+    </section>
+
+    <section id="projects_section" class="portfolio">
+        <h1 style="color: rgb(255, 255, 255); font-size: 45px;margin-top:70px;text-align: center;margin-bottom: 10px;">MY PROJECTS</h1>
+
+        <div class="projects-container">
+      <div class="portfolio">
+                <img src="FurEver.png" alt="">
+                <div class="portfolio_layer">
+                    <a href="https://drive.google.com/file/d/14pvhaP5TdskAnsZpcuMbnvcXlNepOAW9/view?usp=sharing" target="_blank" id="uniid">
+                    <h3>A Design Thinking Project</h3>
+                    <p>Furever is a Pet Adoption and Pet care site.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </a>
+                </div>
+            </div>
+
+            <div class="portfolio">
+                <img src="EW PPT.png" alt="">
+                <div class="portfolio_layer">
+                    <a href="https://drive.google.com/file/d/1y0QFoDKMKMCkNiEOYQv3Heg4ZPWTwt1N/view?usp=sharing" target="_blank" id="uniid" >
+                    <h3>An  Electronic  Workshop Project</h3>
+                    <p>Its Uses an Arduino UNO and Ultrasonic Sesor</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </a>
+                </div>
+            </div>
+
+            <div class="portfolio">
+                <img src="ShareBite.png" alt="">
+                <div class="portfolio_layer">
+                    <a href="https://drive.google.com/file/d/1VCcKZrSI-9ovqXQJpC0JpiNoHwyq-LLL/view?usp=sharing" target="_blank" id="uniid">
+                    <h3>A Solution For G.S.C </h3>
+                    <p>A One-stop Platform for Donating Excess Food</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </a>
+                </div>
+            </div>
+
+            <div class="portfolio">
+                <img src="Projectile.png" alt="">
+                <div class="portfolio_layer">
+                    <a href="https://drive.google.com/file/d/1JTSnSz8mA_mnwV9A7yzERiS0dvjPa1sx/view?usp=drive_link" target="_blank" id="uniid">
+                    <h4>A Projectile Motion Model</h4>
+                    <p>It demonstrate the Projectile motion of body fired from the cannon </p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </a>
+                </div>
+            </div>
+
+            <div class="portfolio">
+                <img src="PORTFOLIO.png" alt="">
+                <div class="portfolio_layer">
+                    <a href="" target="_blank" id="uniid">
+                    <h4>A Project Of making MY PORTFOLIO</h4>
+                    <p>Assignment of Creative Technology</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </a>
+                </div>
+            </div>
+
+            <div class="portfolio">
+                <img src="ISA.png" alt="">
+                <div class="portfolio_layer">
+                    <a href="https://drive.google.com/file/d/17pufDVyXFLuGHRr707mVMx5Yc3li1YLf/view?usp=sharing" target="_blank" id="uniid">
+                    <h4>Fire Extinguishing Robot</h4>
+                    <p>A Project built under the course ISA</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </a>
+                </div>
+            </div>
+
+            
+        </div>
+
+    </section> 
+
+
+    <section id="resume_section" class="resume"> 
+        <h1 style="color: #fff9ed; font-size: 45px;margin-top:60px;text-align: center;margin-bottom: 10px;">RESUME</h1>
+        
+                <div class="container10">
+                <h1>RAJIV GOLAIT</h1>
+                <p class="summary">As a first-year student pursuing a Bachelor's degree in Electronics and
+                    Telecommunication Engineering at MITAOE, I am driven by a passion for
+                    innovation and technology, eager to contribute my skills and dedication to
+                    future endeavors.</p>
+                <div class="contact-info">
+                    <p>Pune, India</p>
+                    <p>+91 8087100789</p>
+                    <p>rajivgolait2005@gmail.com</p>
+                </div>
+
+                <h2>EDUCATION</h2>
+                
+                <div class="education-item">
+                    <h3>UNDERGRADUATE COURSE</h3>
+                    <p>At MIT Academy Of Engineering</p>
+                    <p>2023 - Present, Pune, India</p>
+                    <p>SGPA:8.24</p>
+                </div>
+
+                <div class="education-item">
+                    <h3>HIGHER SECONDARY EDUCATION</h3>
+                    <p>At S.R.Patil Jr. College</p>
+                    <p>2021 - 2023, Akola, India</p>
+                    <p>HSC:72%</p>
+                </div>
+
+                <div class="education-item">
+                    <h3>SECONDARY SCHOOL EDUCATION</h3>
+                    <p>At S.S.G.M.E.S.</p>
+                    <p>2020 - 2021, Shegaon, India</p>
+                    <p>SSC:94%</p>
+                </div>
+
+                <h2 class="skill-head">SKILLS</h2>
+                <div class="skill-items">
+                    <ul>
+                        <li id="listfont1">Leadership & Collaboration</li>
+                        <li id="listfont1">Photography Expertise</li>
+                        <li id="listfont1">Graphic Design with Canva</li>
+                        <li id="listfont1">Basic Python and C</li>
+                        <li id="listfont1">HTML and CSS</li>
+                    </ul>
+                </div>
+
+
+                <h2 class="ext-head">Extracurricular Activities</h2>
+                <div class="ext-items">
+                    <ul>
+                        <li id="listfont2">A Content Creation Team Member At GDSC</li>
+                        <li id="listfont2">Member of Crimson Crescent House At Nekotachi Podcast Club</li>
+                        <li id="listfont2">Part of SHUTTERBUGS(A Photography Club)</li>
+                    </ul>  
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact_section" class="contact_me">
+        <h1 style="color: #fff9ed; font-size: 45px;margin-top:65px;text-align: center;margin-bottom: 10px;">CONTACT ME</h1>
+        <div class="container">
+            <div class="content">
+                <div class="left-side">
+                    <div class="address details">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="topic">Address</div>
+                        <div class="text-one">Sadguru Krupa Boys Hostel,</div>
+                        <div class="text-two">Alandi,Pune</div>
+                    </div>
+                    <div class="phone details">
+                        <i class="fas fa-phone-alt"></i>
+                        <div class="topic">Phone</div>
+                        <div class="text-one">+91 8087100789</div>
+                        
+                    </div>
+                    <div class="email details">
+                        <i class="fas fa-envelope"></i>
+                        <div class="topic">Email</div>
+                        <div class="text-one">rajivgolait2005@gmail.com</div>
+                        <div class="text-two">itsmerajiv021@gmail.com</div>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <div class="topic-text">Send us a message</div>
+                    <p>If you have any work from me or want to connect with me, you can send me a message from here. It's my pleasure to get connect with you.</any types of queries rep>
+                    <form action="#">
+                        <div class="input-box">
+                            <input type="text" placeholder="Enter your name" />
+                        </div>
+                        <div class="input-box">
+                            <input type="text" placeholder="Enter your email" />
+                        </div>
+                        <div class="input-box message-box">
+                            <textarea placeholder="Enter your message"></textarea>
+                        </div>
+                        <div class="button">
+                            <input type="button" value="Send Now" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+</body>
+</html>
